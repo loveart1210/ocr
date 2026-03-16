@@ -1,0 +1,22 @@
+# Bỏ qua file môi trường và secret
+.env
+.env.*
+
+# Bỏ qua file tạm / log
+*.log
+*.tmp
+*.temp
+
+# Bỏ qua thư mục build/output
+dist/
+build/
+out/
+output/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Hệ điều hành
+.DS_Store
+Thumbs.db

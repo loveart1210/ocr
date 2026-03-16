@@ -1,0 +1,11 @@
+# Colab stack (≤16GB VRAM). Run: apt-get install -y poppler-utils then pip install -r requirements-colab.txt
+pydantic>=2.6,<3
+PyMuPDF>=1.23,<2
+python-dotenv>=1.0,<2
+pdf2image>=1.16,<2
+opencv-python-headless>=4.8,<5
+Pillow>=10,<11
+paddlepaddle
+paddleocr
+pix2tex
+# optional: transformers timm (table-transformer, small vision)
